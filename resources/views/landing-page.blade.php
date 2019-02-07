@@ -8,7 +8,7 @@
         <title>David Lynch Shop</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Styles -->
@@ -27,21 +27,12 @@
                     <li><a href="#">Cart</a></li>
                 </ul>
             </div> <!-- end top-nav -->
-
-            <div class="hero container">
-                <div class="hero-copy">
-                    <h1>All things David Lynch</h1>
-                    <p>A practical example of using CSS Grid for a typical website layout.</p>
-                    <div class="hero-buttons">
-                        <a href="#" class="button button-white">Button 1</a>
-                        <a href="#" class="button button-white">Button 2</a>
-                    </div>
-                </div> <!-- end hero-copy -->
+               
 
                 <div class="hero-image">
-                    <img src="img/macbook-pro-laravel.png" alt="hero image">
+                    <img src="img/lostindarkness.jpg" alt="hero image">
                 </div>
-            </div> <!-- end hero -->
+             <!-- end hero -->
         </header>
 
         <div class="featured-section">
@@ -51,7 +42,7 @@
                 <p class="section-description text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid earum fugiat debitis nam, illum vero, maiores odio exercitationem quaerat. Impedit iure fugit veritatis cumque quo provident doloremque est itaque.</p>
 
                 <div class="text-center button-container">
-                    <a href="#" class="button">Featured</a>
+                    <a href="#" class="button">New</a>
                     <a href="#" class="button">On Sale</a>
                 </div>
 
@@ -111,24 +102,24 @@
 
         <div class="blog-section">
             <div class="container">
-                <h1 class="text-center">Articles</h1>
+                <h1 class="text-center">Miscellaneous</h1>
 
                 <p class="section-description text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sed accusantium maxime dolore cum provident itaque ea, a architecto alias quod reiciendis ex ullam id, soluta deleniti eaque neque perferendis.</p>
 
                 <div class="blog-posts">
-                    <div class="blog-post" id="blog1">
-                        <a href="#"><img src="img/blog1.png" alt="blog image"></a>
-                        <a href="#"><h2 class="blog-title">Article 1</h2></a>
+                    <div class="blog-post" id="News">
+                        <a href="#"><img src="img/thearm.jpg" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">News</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ullam, ipsa quasi?</div>
                     </div>
-                    <div class="blog-post" id="blog2">
-                        <a href="#"><img src="img/blog2.png" alt="blog image"></a>
-                        <a href="#"><h2 class="blog-title">Article 2</h2></a>
+                    <div class="blog-post" id="Fan Art">
+                        <a href="#"><img src="img/thearm.jpg" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Fan Art</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ullam, ipsa quasi?</div>
                     </div>
-                    <div class="blog-post" id="blog3">
-                        <a href="#"><img src="img/blog3.png" alt="blog image"></a>
-                        <a href="#"><h2 class="blog-title">Article 3</h2></a>
+                    <div class="blog-post" id="Forum">
+                        <a href="#"><img src="img/thearm.jpg" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Forum</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ullam, ipsa quasi?</div>
                     </div>
                 </div> <!-- end blog-posts -->
@@ -137,7 +128,6 @@
 
         <footer>
             <div class="footer-content container">
-                <div class="made-with"> <i class="fa fa-heart"></i> </div>
                 <ul>
                     <li>Follow Me:</li>
                     <li><a href="#"><i class="fa fa-globe"></i></a></li>

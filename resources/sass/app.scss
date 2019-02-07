@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -35,7 +35,7 @@ a {
 }
 
 h1, h2 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ img {
 header {
   background: url('../public/img/Rabbitsbackground.jpg');
   background-size: cover;
-  color: black;
+   
 
   .top-nav {
     display: flex;
@@ -113,9 +113,9 @@ header {
       width: 40%;
 
       a {
-        color: $white;
+        color: $light-gray-background;
         &:hover {
-          color: darken($white, 10%);
+          color: darken($light-gray-background, 10%);
         }
       }
     }
@@ -123,14 +123,15 @@ header {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: $gutter;
-  padding-top: 20px;
-  padding-bottom: 84px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #535353;
+
 
   .hero-image {
-    padding-left: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   h1 {
@@ -185,7 +186,7 @@ header {
 }
 
 footer {
-  background: $gray-background;
+  background: $green;
   color: $white;
   padding: 40px 0;
 
